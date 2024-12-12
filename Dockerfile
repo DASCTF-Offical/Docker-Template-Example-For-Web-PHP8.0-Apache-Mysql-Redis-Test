@@ -1,4 +1,4 @@
-FROM ghcr.io/dasctf-offical/docker-template-for-web-php7.4-apache-mysql-redis:main
+FROM ghcr.io/dasctf-offical/docker-template-for-web-php8.0-apache-mysql-redis:main
 
 # 复制源码到网站访问目录下
 COPY src /var/www/html
